@@ -55,7 +55,7 @@ class ObjectDetetction:
 
     def load_model(self):
         '''
-            Load the YOLO (pretranied) model.
+            Load the YOLO (pretrained) model.
         '''
         model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
         return model
