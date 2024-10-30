@@ -1,6 +1,6 @@
 # Real-Time Object Detection with YOLOv5
 
-This project uses a YOLOv5 object detection model to detect objects in real-time on a video stream from an IP camera. The project includes:
+This project uses a YOLOv5 object detection model to detect objects in real-time on a video stream from the wrist mounted camera. The project includes:
 - **Asynchronous Video Capture** for optimized video processing with OpenCV.
 - **YOLOv5 Object Detection** to detect and label objects in each frame.
 - **Kinova Gen3 Robot API** integration for session management and communication setup (via TCP/IP).
